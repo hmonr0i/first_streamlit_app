@@ -1,5 +1,8 @@
 import streamlit
-streamlit.title('My parents New Healty Diner')
-streamlit.header('Breakfast Menu')
-streamlit.text('Omaga 3 & Blueberry')
-streamlit.text('Kale spinach')
+streamlit.header('My Mom's New Healthy Diner')
+
+streamlit.text('🥣  Omega 3 y avena con arándanos')
+streamlit.text('🥗 Batido de col rizada, espinacas y rúcula')
+streamlit.text('🐔 Huevo duro de gallinas camperas')
+streamlit.text('🥑🍞 Totada de Aguacate')
+streamlit.header('🍌🥭 Prepara tu propio batido de frutas 🥝🍇')
