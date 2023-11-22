@@ -11,4 +11,6 @@ streamlit.header('🍌🥭 Prepara tu propio batido de frutas 🥝🍇')
 
 import pandas
 my_fruit_list=pandas.read_csv("https://uni-lab-files.s3.us-west-2.amazonaws.com/dabw/fruit_macros.txt")
+
+stream.multiselectect("Pick some fuits:", list(my_fruit_list.index))
 streamlit.dataframe(my_fruit_list)
