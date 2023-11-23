@@ -57,7 +57,7 @@ if streamlit.button('Get Fruit Load List'):
 
 
 
-streamlit.write('Thanks for adding ', add_my_fruit)
+
 
 def insert_row_snowflake(new_fruit,connection):
     with my_cnx.cursor() as my_cur:
@@ -70,7 +70,7 @@ if streamlit.button('Add a Fruit to the list'):
      back_from_function = insert_row_snowflake(add_my_fruit) 
      streamlit.text(back_from_function)
 
-
+streamlit.write('Thanks for adding ', add_my_fruit)
 
 
 fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ fruit_choice)
