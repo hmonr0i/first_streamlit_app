@@ -3,6 +3,8 @@ import pandas
 import requests
 import snowflake.connector
 import requests
+from utllib.error import URLError
+
 streamlit.title('My Mom´s New Healthy Diner')
 
 streamlit.text('🥣  Omega 3 y avena con arándanos')
