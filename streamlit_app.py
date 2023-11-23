@@ -73,4 +73,4 @@ add_my_fruit = streamlit.text_input('What fruit would you like to add?')
 
 
 
-#fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ fruit_choice)
+fruityvice_response = requests.get("https://fruityvice.com/api/fruit/"+ fruit_choice)
